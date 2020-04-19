@@ -45,6 +45,7 @@
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
+                    android:onClick="history"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -90,6 +91,7 @@
                 android:layout_marginLeft="20dp">
 
                 <LinearLayout
+                    android:onClick="approvel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -143,6 +145,7 @@
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
+                    android:onClick="marketing"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -188,6 +191,7 @@
                 android:layout_marginLeft="20dp">
 
                 <LinearLayout
+                    android:onClick="start"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -239,6 +243,7 @@
                 app:cardCornerRadius="10dp">
 
                 <LinearLayout
+                    android:onClick="benefit"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -284,6 +289,7 @@
                 android:layout_marginLeft="20dp">
 
                 <LinearLayout
+                    android:onClick="ranking"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
