@@ -1,9 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/layout"
     tools:context=".history_flp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Forever Living Products Pvt. Ltd."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+      <ImageView
+        android:id="@+id/ivhistory"
+        android:layout_width="match_parent"
+        android:layout_height="331dp"
+        android:layout_marginLeft="2dp"
+
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="2dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/flpsalgraph"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <TextView
+        android:id="@+id/tvdetials"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="Company Detials"
+        android:textColor="#673AB7"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+<MultiAutoCompleteTextView
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:text="* Forever Living Products Pvt. Ltd. started in 1978, Scottsdale, Arizona, United States (USA).\n
+* 42 years old company. \n
+* Started with Aloe Vera Drink, today it sell     200+ products world wide.\n
+* Self Aloe Vera Field 8,000 Acre plus Bee    Hive.\n
+* World Wide 168+ countries.\n
+* Totally cash Rich Company moreover no     Share Holder.\n
+* Forever Living Products Pvt. Ltd. entered to Indian on September 2000.\n
+
+
+"
+
+/>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
