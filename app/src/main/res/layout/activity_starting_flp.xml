@@ -1,9 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".starting_flp">
+    android:background="@drawable/layout"
+    tools:context=".history_flp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Forever Living Products Pvt. Ltd."
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv4.1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/unnamed"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <TextView
+                android:id="@+id/tv4.1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="arial"
+                android:gravity="center_horizontal"
+                android:text="Joining or Starting with FLP"
+                android:textColor="#FFEB3B"
+                android:textSize="26dp"
+                android:textStyle="normal|bold|italic" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:text=" Their are two ways to join Forever Living Products PVT. LTD. \n
+1st Online through agent Sponsor.\n
+2nd Offline(Need to fill up a form which cost Rs. 25 available at our FLP Offices.)\n
+Joining required following documents both online or offline.\n
+* Email Id.\n
+* Phone Number.\n
+* PAN CARD.\n
+* Address Proof. (Aadhar Card, Voter Card).\n
+
+
+
+"
+                android:textColor="#A31C4A"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/im4.2"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginLeft="2dp"
+
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/mrtinluthr"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:text=">> Buy RS 1000+ Products and be Novus Customer of FLP.\n
+>> Once we have received these documents, your application ID will become  ‘ACTIVE’. \n
+>> After this purchases in your name with your exclusive and unique 12-Digit Forever Business Owner (FBO).\n"
+                android:textColor="#FF5722"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/im4.3"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/motivationpl"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+            <ImageView
+                android:id="@+id/im4.4"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/team"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
