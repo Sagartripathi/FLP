@@ -43,13 +43,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void ranking(View view) {
-        Intent intent = new Intent(this, benefit_flp.class);
+        Intent intent = new Intent(this, rank_flp.class);
         startActivity(intent);
 
     }
 
     public void benefit(View view) {
-        Intent intent = new Intent(this, rank_flp.class);
+        Intent intent = new Intent(this, benefit_flp.class);
         startActivity(intent);
 
     }

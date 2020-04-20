@@ -54,6 +54,8 @@
         android:textStyle="bold" />
 <MultiAutoCompleteTextView
     android:layout_width="wrap_content"
+    android:focusable="true"
+    android:focusableInTouchMode="false"
     android:layout_height="match_parent"
     android:text="* Forever Living Products Pvt. Ltd. started in 1978, Scottsdale, Arizona, United States (USA).\n
 * 42 years old company. \n

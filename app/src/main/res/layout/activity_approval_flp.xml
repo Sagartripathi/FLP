@@ -55,9 +55,10 @@
                 android:textSize="24dp"
                 android:textStyle="bold" />
             <MultiAutoCompleteTextView
-
                 android:layout_width="wrap_content"
                 android:textSize="20dp"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:lineSpacingExtra="2dp"
                 android:layout_height="match_parent"
                 android:text=" * IASC – International Aloe Science Council.\n

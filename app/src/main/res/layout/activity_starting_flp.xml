@@ -57,6 +57,8 @@
 
             <MultiAutoCompleteTextView
                 android:layout_width="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:layout_height="match_parent"
                 android:lineSpacingExtra="2dp"
                 android:text=" Their are two ways to join Forever Living Products PVT. LTD. \n
@@ -92,6 +94,8 @@ Joining required following documents both online or offline.\n
             <MultiAutoCompleteTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:lineSpacingExtra="2dp"
                 android:text=">> Buy RS 1000+ Products and be Novus Customer of FLP.\n
 >> Once we have received these documents, your application ID will become  ‘ACTIVE’. \n
@@ -123,6 +127,33 @@ Joining required following documents both online or offline.\n
                 android:src="@drawable/team"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
+            <MultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:text="
+ DISTRIBUTOR\n
+
+If you are interested in our products and want to be a member of our Company, then you must fill out an application form that we
+ will send you to the address that you furnish to us. Then you become our DISTRIBUTOR.\n
+There is NO COST TO JOIN. There is NO INVESTMENT AT ALL\n
+You get 43% Retail Profit if you sell our products after joining our company.\n
+You must sell 2cc products so that you can jump to the HIGHER LEVEL.\n
+YOU must be wondering what is cc? CC stands for CASE CREDIT. Every product in our company has points, these are called CC.For example-Aloe Vera Gel in our company has 0.09cc, Forever Bright Tooth gel has 0.029cc etc.
+  Adding up all the products you sold (considering their CC) you must complete 2CC in order to jump to HIGHER LEVEL.
+  Also our company gives you 2 consecutive months to complete 2CC sales.\n
+  For example-you sell 1CC in January and 1CC in February then you can jump to the HIGHER LEVEL. Just in case you sell 1CC in January and 0.5CC products in February then, you are given another chance in March (considering the CC of February).
+  Lets say that you couldn’t sell 2CC in February and March also, then FLP gives you your time to sell 2CC products to reach YOUR HIGHER LEVEL, considering two consecutive months only. You might even sell 2CC products in 1month itself and get promoted.
+  \nThere is no hard and fast rule that you sell 2CC in a stipulated time. You might take your own time to get to a HIGHER LEVEL.
+
+\n
+
+"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
 
 

@@ -65,6 +65,8 @@
                 tools:layout_editor_absoluteY="32dp" />
 
             <MultiAutoCompleteTextView
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:layout_width="wrap_content"
                 android:textSize="20dp"
                 android:textStyle="bold"

@@ -31,13 +31,12 @@
             <ImageView
                 android:id="@+id/iv4.1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="290dp"
                 android:layout_marginLeft="2dp"
-
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/unnamed"
+                android:src="@drawable/planecompanyrank"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
 
@@ -50,52 +49,94 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="arial"
                 android:gravity="center_horizontal"
-                android:text="Joining or Starting with FLP"
+                android:text="Ranking system in FLP"
                 android:textColor="#FFEB3B"
                 android:textSize="26dp"
                 android:textStyle="normal|bold|italic" />
 
             <MultiAutoCompleteTextView
                 android:layout_width="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:layout_height="match_parent"
                 android:lineSpacingExtra="2dp"
-                android:text=" Their are two ways to join Forever Living Products PVT. LTD. \n
-1st Online through agent Sponsor.\n
-2nd Offline(Need to fill up a form which cost Rs. 25 available at our FLP Offices.)\n
-Joining required following documents both online or offline.\n
-* Email Id.\n
-* Phone Number.\n
-* PAN CARD.\n
-* Address Proof. (Aadhar Card, Voter Card).\n
-
-
-
-"
+                android:text=" We are a large group of industry, through which we provide you
+all to be the part of upcoming future Industry which is already working in 168+countries,
+and as well as working in India from past 18 years.We provide you the best business which
+you can start with less amount of investment on your own approx(1000)rs,in which we will
+provide you.(Free Training),(Free personality development),(Free Joining for Life Time),
+(With no risk),(No Targets) etc etc you will work as your OWN BOSS!! For more information
+you can contact me as soon as possible.\n\n
+NOTE:_ THIS OPPORTUNITY IS SPECIALLY FOR THOSE HOW HAVE THE COURAGE TO QUIT THERE
+COMFORT ZONE FOR THEIR BETTER LIFE STYLE."
                 android:textColor="#A31C4A"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
 
-            <ImageView
-                android:id="@+id/im4.2"
+
+            <TextView
+                android:id="@+id/tv5.8"
                 android:layout_width="match_parent"
-                android:layout_height="248dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="20dp"
+                android:fontFamily="arial"
+                android:gravity="center_horizontal"
+                android:text="PRICE AND CASE CREDIT(CC) IN INDIA"
+                android:textColor="#FFEB3B"
+                android:textSize="26dp"
+                android:textStyle="normal|bold|italic" />
+
+
+            <ImageView
+                android:id="@+id/iv5.9"
+                android:layout_width="wrap_content"
+                android:layout_height="595dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/mrtinluthr"
+                android:src="@drawable/cchart"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
+
+            <ImageView
+                android:id="@+id/im5.2"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/c22"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+
+
 
             <MultiAutoCompleteTextView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
                 android:lineSpacingExtra="2dp"
-                android:text=">> Buy RS 1000+ Products and be Novus Customer of FLP.\n
->> Once we have received these documents, your application ID will become  ‘ACTIVE’. \n
->> After this purchases in your name with your exclusive and unique 12-Digit Forever Business Owner (FBO).\n"
-                android:textColor="#FF5722"
+                android:text="
+ASSISTANT SUPERVISOR:\n
+Once you make 2cc in 2 consecutive months, you are promoted to this level.
+You get 43% Retail profits,
+now at this stage you should start making members under you that is you can sponsor and build your own downline.
+You get 5% bonus on retail sales.
+You and your members that are under you, together should have sales of 25CC in 2 consecutive months, so then our Company promotes you to the next level.
+Here also you and your members together can sell 25CC in your own time. Remember Our Company doesn’t make you TIME BOUND. You decide the TIME you need to reach to YOUR GOALS.
+
+
+
+
+                \n"
+                android:textColor="#FFFFFF"
                 android:textSize="22dp"
                 android:textStyle="bold" />
 
@@ -107,21 +148,142 @@ Joining required following documents both online or offline.\n
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/motivationpl"
+                android:src="@drawable/c25"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
 
             <ImageView
                 android:id="@+id/im4.4"
                 android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/supervisor"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+            <MultiAutoCompleteTextView
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:text="
+SUPERVISOR:\n
+After selling 25CC products at ASSISTANT SUPERVISOR LEVEL you are promoted at this position.
+You get 43% retail profit
+plus 8% bonus on personal retail sales
+plus 3% bonus on Assistant Supervisor group retail sales,(when you become a SUPERVISOR, then members under you who have sold 2cc in 2 consecutive months will become ASSISTANT SUPERVISOR under you and you get 3% bonus on each of these ASSISTANT SUPERVISOR’S GROUP RETAIL SALES because these ASSISTANT SUPERVISORS have made members and all of these ASSISTANT SUPERVISOR along with their members are under you).
+Continue sponsoring and building your downline so that you have more members and as a result MORE EARNINGS.
+DON’T FORGET AT EVERY STAGE YOU MUST ATTEND PRESENTATIONS TO UNDERSTAND THE BENEFITS OF EVERY PRODUCT AND TO UNDERSTAND OUR MARKETING PLAN.
+At this stage you along with your new members, assistant supervisors and their members, must sell 75CC products in 2 consecutive months to get promoted.
+As we mentioned earlier, you and your downline can sell 75CC products in any  2consecutive months as per your convenience.
+"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:id="@+id/im5.4"
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/c75"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+
+
+
+            <MultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:lineSpacingExtra="2dp"
+                android:text="
+ASSISTANT MANAGER:\n
+After you and your downline, which included assistant supervisors, and their members; sold 75CC products then you are promoted at the position of the ASSISTANT MANAGER who has several downlines of supervisors, with their members and the assistant supervisors and their members.
+you get 43% retail profit.
+plus 13% bonus on Personal retail sales.
+plus 5% bonus on Supervisor Group retail sales.
+plus 8% bonus on Assistant Supervisor Group retail sales.
+Please note that after the completion of 2CC sale of products at the distributor level you are entitled to make any number of members under you, so it is clear that you need not have just one downline with one supervisor and one assistant supervisor, like the other MLMs.
+You might have many downlines with several supervisors and members under you.
+So in that way you get more earnings from every downline that you have under you.
+
+                \n"
+                android:textColor="#FF5722"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/im5.5"
+                android:layout_width="match_parent"
                 android:layout_height="248dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/team"
+                android:src="@drawable/c120"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
+
+            <MultiAutoCompleteTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:focusableInTouchMode="false"
+                android:lineSpacingExtra="2dp"
+                android:text="
+MANAGER:\n
+This is the highest position you can achieve after you and your downline together
+ accomplish the sales of 120 CC in any two consecutive months.\n
+At this position you get 43% retail profit.\n
+plus 18% bonus on personal retail sales.\n
+plus 5% bonus on Assistant manager’s group retail sales.\n
+plus 10% bonus on supervisor’s group retail sales.\n
+plus 13% bonus on Assistant supervisor’s group retail sales.\n
+
+so this was the marketing plan that FLP has to offer you, now that
+you have read , you can either try our outstanding products because
+ they DON’T MEET BUT BEAT THE COMPETITION! or you can apply to do the
+  business and change the lives of thousands  who start earning in our unique
+  marketing plan. Or you can do both, buy products for yourselves as well as do the business.
+  \n"
+                android:textColor="#FFFFFF"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/im5.6"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/laddermanager"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
