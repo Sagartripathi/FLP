@@ -6,8 +6,17 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/layout"
-    tools:context=".history_flp">
-
+    tools:context=".history_flp"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
@@ -154,8 +163,27 @@ YOU must be wondering what is cc? CC stands for CASE CREDIT. Every product in ou
                 android:textColor="#FFFFFF"
                 android:textSize="24sp"
                 android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/im4.10"
+                android:layout_width="match_parent"
+                android:layout_height="248dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/planecompanyrank"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
 
-
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                tools:ignore="MissingConstraints" />
 
         </LinearLayout>
 

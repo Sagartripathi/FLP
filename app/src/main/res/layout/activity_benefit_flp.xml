@@ -2,11 +2,21 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/layout"
     tools:context=".history_flp">
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        tools:ignore="MissingConstraints" />
 
 
     <TextView
@@ -19,6 +29,8 @@
         android:textSize="24dp"
         android:textStyle="bold"
         tools:ignore="MissingConstraints" />
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -29,20 +41,20 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/iv4.1"
+                android:id="@+id/iv6.0"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="322dp"
                 android:layout_marginLeft="2dp"
 
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/unnamed"
+                android:src="@drawable/novusdtl"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
 
             <TextView
-                android:id="@+id/tv4.1"
+                android:id="@+id/tv6.1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
@@ -50,36 +62,16 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="arial"
                 android:gravity="center_horizontal"
-                android:text="Joining or Starting with FLP"
+                android:text="How To Achieve Ranks and  Benefits from it"
                 android:textColor="#FFEB3B"
                 android:textSize="26dp"
                 android:textStyle="normal|bold|italic" />
 
-            <MultiAutoCompleteTextView
-                android:focusable="true"
-                android:focusableInTouchMode="false"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:lineSpacingExtra="2dp"
-                android:text=" Their are two ways to join Forever Living Products PVT. LTD. \n
-1st Online through agent Sponsor.\n
-2nd Offline(Need to fill up a form which cost Rs. 25 available at our FLP Offices.)\n
-Joining required following documents both online or offline.\n
-* Email Id.\n
-* Phone Number.\n
-* PAN CARD.\n
-* Address Proof. (Aadhar Card, Voter Card).\n
 
-
-
-"
-                android:textColor="#A31C4A"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
 
             <ImageView
-                android:id="@+id/im4.2"
+                android:id="@+id/im6.2"
                 android:layout_width="match_parent"
                 android:layout_height="248dp"
                 android:layout_marginLeft="2dp"
@@ -87,76 +79,58 @@ Joining required following documents both online or offline.\n
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/mrtinluthr"
+                android:src="@drawable/asstsuperdtl"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
 
-            <MultiAutoCompleteTextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:focusable="true"
-                android:focusableInTouchMode="false"
-                android:lineSpacingExtra="2dp"
-                android:text=">> Buy RS 1000+ Products and be Novus Customer of FLP.\n
->> Once we have received these documents, your application ID will become  ‘ACTIVE’. \n
->> After this purchases in your name with your exclusive and unique 12-Digit Forever Business Owner (FBO).\n"
-                android:textColor="#FF5722"
-                android:textSize="22dp"
-                android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/im4.3"
+                android:id="@+id/im6.3"
                 android:layout_width="match_parent"
-                android:layout_height="248dp"
+                android:layout_height="434dp"
                 android:layout_marginLeft="2dp"
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/motivationpl"
+                android:src="@drawable/supervisordtl"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="32dp" />
+
+
+            <ImageView
+                android:id="@+id/im5.5"
+                android:layout_width="wrap_content"
+                android:layout_height="434dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="2dp"
+                android:gravity="center_horizontal"
+                android:src="@drawable/asmanagerdtl"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
 
             <ImageView
-                android:id="@+id/im4.4"
-                android:layout_width="match_parent"
-                android:layout_height="248dp"
+                android:id="@+id/im5.6"
+                android:layout_width="wrap_content"
+                android:layout_height="434dp"
                 android:layout_marginLeft="2dp"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="20dp"
                 android:layout_marginRight="2dp"
                 android:gravity="center_horizontal"
-                android:src="@drawable/team"
+                android:src="@drawable/managerdtl"
                 tools:layout_editor_absoluteX="0dp"
                 tools:layout_editor_absoluteY="32dp" />
-            <MultiAutoCompleteTextView
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:focusable="true"
-                android:focusableInTouchMode="false"
-                android:lineSpacingExtra="2dp"
-                android:text="
- DISTRIBUTOR\n
-
-If you are interested in our products and want to be a member of our Company, then you must fill out an application form that we
- will send you to the address that you furnish to us. Then you become our DISTRIBUTOR.\n
-There is NO COST TO JOIN. There is NO INVESTMENT AT ALL\n
-You get 43% Retail Profit if you sell our products after joining our company.\n
-You must sell 2cc products so that you can jump to the HIGHER LEVEL.\n
-YOU must be wondering what is cc? CC stands for CASE CREDIT. Every product in our company has points, these are called CC.For example-Aloe Vera Gel in our company has 0.09cc, Forever Bright Tooth gel has 0.029cc etc.
-  Adding up all the products you sold (considering their CC) you must complete 2CC in order to jump to HIGHER LEVEL.
-  Also our company gives you 2 consecutive months to complete 2CC sales.\n
-  For example-you sell 1CC in January and 1CC in February then you can jump to the HIGHER LEVEL. Just in case you sell 1CC in January and 0.5CC products in February then, you are given another chance in March (considering the CC of February).
-  Lets say that you couldn’t sell 2CC in February and March also, then FLP gives you your time to sell 2CC products to reach YOUR HIGHER LEVEL, considering two consecutive months only. You might even sell 2CC products in 1month itself and get promoted.
-  \nThere is no hard and fast rule that you sell 2CC in a stipulated time. You might take your own time to get to a HIGHER LEVEL.
-
-\n
-
-"
-                android:textColor="#FFFFFF"
-                android:textSize="24sp"
-                android:textStyle="bold" />
 
 
-
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView2"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                tools:ignore="MissingConstraints" />
         </LinearLayout>
 
     </ScrollView>
