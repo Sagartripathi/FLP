@@ -3,5 +3,10 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#FFFFFF</color>
     <color name="colorAccent">#03DAC5</color>
+    <color name="colorbrown">#dbac50</color>
+
+    <color name="colorPrimarySplash">#00C853</color>
+    <color name="colorPrimaryDarkSplash">#00993F</color>
+    <color name="colorAccentSplash">#E65100</color>
 
 </resources>
