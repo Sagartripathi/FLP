@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Forever Living Products Pvt. Ltd."
+        android:text="@string/maincompany"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -49,7 +49,7 @@
         android:layout_marginTop="2dp"
         android:layout_marginRight="20dp"
         android:gravity="center_horizontal"
-        android:text="Company Detials"
+        android:text="@string/company_detials"
         android:textColor="#673AB7"
         android:textSize="24dp"
         android:textStyle="bold" />
@@ -60,13 +60,7 @@
             android:layout_height="match_parent"
             android:focusable="true"
             android:focusableInTouchMode="false"
-            android:text="* Forever Living Products Pvt. Ltd. started in 1978, Scottsdale, Arizona, United States (USA).\n
-* 42 years old company. \n
-* Started with Aloe Vera Drink, today it sell     200+ products world wide.\n
-* Self Aloe Vera Field 8,000 Acre plus Bee    Hive.\n
-* World Wide 168+ countries.\n
-* Totally cash Rich Company moreover no     Share Holder.\n
-* Forever Living Products Pvt. Ltd. entered to Indian on September 2000.\n \n \n " />
+            android:text="@string/flp_history" />
 
     </LinearLayout>
 

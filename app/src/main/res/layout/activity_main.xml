@@ -42,7 +42,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="Forever Living Products Pvt. Ltd."
+                android:text="@string/maincompany"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="26dp"
 
@@ -79,7 +79,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="10dp"
-                            android:text="Company History"
+                            android:text="@string/company_history"
                             android:textColor="@android:color/black" />
 
                         <View
@@ -92,7 +92,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Know More About Company"
+                            android:text="@string/about_company"
                             android:textSize="10sp" />
 
                     </LinearLayout>
@@ -138,7 +138,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="20dp"
-                            android:text="Number of Approval World Wide"
+                            android:text="@string/approval_world_wide"
                             android:textSize="10sp" />
 
                     </LinearLayout>

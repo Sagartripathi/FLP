@@ -23,7 +23,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Forever Living Products Pvt. Ltd."
+        android:text="@string/maincompany"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -57,7 +57,7 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center_horizontal"
-                android:text="Forever Living Products Pvt. Ltd. \n Gives 10 types of income"
+                android:text="@string/types_of_income"
                 android:textColor="#673AB7"
                 android:textSize="24dp"
                 android:textStyle="bold" />
@@ -83,19 +83,7 @@
                 android:textColor="#0000CD"
                 android:lineSpacingExtra="2dp"
                 android:layout_height="match_parent"
-                android:text="* Retails Profit (15% To 48%).\n
-* Automatic Profit (20% to 33%).\n
-* Personal Bonus (5% to 18% ).\n
-* Volume Bonus (3%  to 13%).\n
-* Leadership Bonus.\n
-* Gem Bonus.\n
-* Car Plan / Home Plane.\n
-* Tours (Domestic Tour MR And International Tour EMR).\n
-* Global Rally.\n
-* Chairman Bonus/ Profit Share.\n(Diwali Bonus)\n
-
-
-" />
+                android:text="@string/profits_list" />
             <ImageView
                 android:id="@+id/im3.3"
                 android:layout_width="match_parent"

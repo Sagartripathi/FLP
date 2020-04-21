@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Forever Living Products Pvt. Ltd."
+        android:text="@string/maincompany"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -62,7 +62,7 @@
                 android:layout_marginRight="20dp"
                 android:fontFamily="arial"
                 android:gravity="center_horizontal"
-                android:text="How To Achieve Ranks and  Benefits from it"
+                android:text="@string/ranks_benefits"
                 android:textColor="#FFEB3B"
                 android:textSize="26dp"
                 android:textStyle="normal|bold|italic" />

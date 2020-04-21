@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Forever Living Products Pvt. Ltd."
+        android:text="@string/maincompany"
         android:textColor="@color/colorPrimaryDark"
         android:textSize="24dp"
         android:textStyle="bold"
@@ -60,7 +60,7 @@
                 android:layout_marginTop="2dp"
                 android:layout_marginRight="20dp"
                 android:gravity="center_horizontal"
-                android:text="Forever Living Products Certificates List"
+                android:text="@string/approval_list"
                 android:textColor="#673AB7"
                 android:textSize="24dp"
                 android:textStyle="bold" />
@@ -71,21 +71,7 @@
                 android:focusableInTouchMode="false"
                 android:lineSpacingExtra="2dp"
                 android:layout_height="match_parent"
-                android:text=" * IASC – International Aloe Science Council.\n
-* Leaping Bunny | Respect for Animal  Rights.\n
-* NSF Safety and Quality Certification.\n
-* ISO 14001:2004 - Environmental Management Systems.\n
-* ISO 9001:2000 Quality Management System.\n
-* OHSAS 18001- Health And Safety Standard.\n
-* Kosher organization.\n
-* IDSA (The Indian Direct Selling Association).\n
-(85% Aloe Vera And Bee Honey sold in all over world\n
-World leader in Aloe Vera and Bee Hive)
-
-
-
-
-" />
+                android:text="@string/approved_org_list" />
 
             <ImageView
                 android:id="@+id/imidsa"
