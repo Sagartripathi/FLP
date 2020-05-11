@@ -7,7 +7,11 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/layout"
-    tools:context=".history_flp">
+    tools:context=".benefit_flp">
+
+
+
+
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="match_parent"
@@ -15,7 +19,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:adUnitId="@string/benefit_bnr1"
         tools:ignore="MissingConstraints" />
 
 
@@ -129,7 +133,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                ads:adUnitId="@string/benefit_bnr2"
                 tools:ignore="MissingConstraints" />
         </LinearLayout>
 

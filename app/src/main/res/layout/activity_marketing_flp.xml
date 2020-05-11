@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/layout2"
-    tools:context=".history_flp">
+    tools:context=".marketing_flp">
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:adUnitId="@string/markating_bnr1"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -102,7 +102,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                ads:adUnitId="@string/markating_bnr2"
                 tools:ignore="MissingConstraints" />
 
         </LinearLayout>

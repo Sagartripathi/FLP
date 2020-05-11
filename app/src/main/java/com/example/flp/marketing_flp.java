@@ -13,6 +13,7 @@ import com.google.android.gms.ads.initialization.OnInitializationCompleteListene
 public class marketing_flp extends AppCompatActivity {
 
     private AdView mAdView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,10 +23,10 @@ public class marketing_flp extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-        mAdView = findViewById(R.id.adView);
+        mAdView = (AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
-        mAdView = findViewById(R.id.adView2);
+        mAdView = (AdView) findViewById(R.id.adView2);
         AdRequest adRequest2 = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest2);
 

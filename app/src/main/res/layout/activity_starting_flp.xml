@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_height="match_parent"
     android:background="@drawable/layout"
-    tools:context=".history_flp"
+    tools:context=".starting_flp"
     xmlns:ads="http://schemas.android.com/apk/res-auto">
     <com.google.android.gms.ads.AdView
         android:id="@+id/adView"
@@ -15,7 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        ads:adUnitId="@string/starting_bnr1"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -96,7 +96,7 @@
                 android:focusableInTouchMode="false"
                 android:lineSpacingExtra="2dp"
                 android:text="@string/base_plane"
-                android:textColor="#FF5722"
+                android:textColor="#0000CD"
                 android:textSize="22dp"
                 android:textStyle="bold" />
 
@@ -130,7 +130,7 @@
                 android:layout_height="match_parent"
                 android:lineSpacingExtra="2dp"
                 android:text="@string/distributor_detials"
-                android:textColor="#FFFFFF"
+                android:textColor="@color/colorPrimary"
                 android:textSize="24sp"
                 android:textStyle="bold" />
             <ImageView
@@ -152,7 +152,7 @@
                 android:layout_alignParentBottom="true"
                 android:layout_centerHorizontal="true"
                 ads:adSize="BANNER"
-                ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+                ads:adUnitId="@string/starting_bnr2"
                 tools:ignore="MissingConstraints" />
 
         </LinearLayout>

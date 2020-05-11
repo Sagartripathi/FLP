@@ -21,7 +21,7 @@ public class history_flp extends AppCompatActivity {
             public void onInitializationComplete(InitializationStatus initializationStatus) {
             }
         });
-        mAdView = findViewById(R.id.adView);
+        mAdView =(AdView) findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 

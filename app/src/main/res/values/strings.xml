@@ -1,12 +1,11 @@
 <resources>
     <string name="app_name">FLP</string>
-    <string name="interstical1">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstical2">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstical3">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstical4">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstical5">ca-app-pub-3940256099942544/1033173712</string>
-    <string name="interstical6">ca-app-pub-3940256099942544/1033173712</string>
-
+    <string name="interstical1">ca-app-pub-7796514960574688/5597341535</string>
+    <string name="interstical2">ca-app-pub-7796514960574688/2971178190</string>
+    <string name="interstical3">ca-app-pub-7796514960574688/9345014851</string>
+    <string name="interstical4">ca-app-pub-7796514960574688/8031933181</string>
+    <string name="interstical5">ca-app-pub-7796514960574688/6718851515</string>
+    <string name="interstical6">ca-app-pub-7796514960574688/4442319764</string>
     <string name="maincompany">Forever Living Products Pvt. Ltd.</string>
     <string name="approval_list">Forever Living Products Certificates List</string>
     <string name="approved_org_list">* IASC – International Aloe Science Council.\n * Leaping Bunny | Respect for Animal Rights.\n * NSF Safety and Quality Certification.\n * ISO 14001:2004 - Environmental Management Systems.\n * ISO 9001:2000 Quality Management System.\n * OHSAS 18001- Health And Safety Standard.\n * Kosher organization.\n * IDSA (The Indian Direct Selling Association).\n (85% Aloe Vera And Bee Honey sold in all over world\n World leader in Aloe Vera and Bee Hive)</string>
@@ -28,4 +27,17 @@
     <string name="types_of_joining">Their are two ways to join Forever Living Products PVT. LTD. \n 1st Online through agent Sponsor.\n 2nd Offline(Need to fill up a form which cost Rs. 25 available at our FLP Offices.)\n Joining required following documents both online or offline.\n * Email Id.\n * Phone Number.\n * PAN CARD.\n * Address Proof. (Aadhar Card, Voter Card).\n</string>
     <string name="base_plane"><![CDATA[>> Buy RS 1000+ Products and be Novus Customer of FLP.\n >> Once we have received these documents, your application ID will become ‘ACTIVE’. \n >> After this purchases in your name with your exclusive and unique 12-Digit Forever Business Owner (FBO).\n]]></string>
     <string name="distributor_detials">DISTRIBUTOR\n If you are interested in our products and want to be a member of our Company, then you must fill out an application form that we will send you to the address that you furnish to us. Then you become our DISTRIBUTOR.\n There is NO COST TO JOIN. There is NO INVESTMENT AT ALL\n You get 43% Retail Profit if you sell our products after joining our company.\n You must sell 2cc products so that you can jump to the HIGHER LEVEL.\n YOU must be wondering what is cc? CC stands for CASE CREDIT. Every product in our company has points, these are called CC.For example-Aloe Vera Gel in our company has 0.09cc, Forever Bright Tooth gel has 0.029cc etc. Adding up all the products you sold (considering their CC) you must complete 2CC in order to jump to HIGHER LEVEL. Also our company gives you 2 consecutive months to complete 2CC sales.\n For example-you sell 1CC in January and 1CC in February then you can jump to the HIGHER LEVEL. Just in case you sell 1CC in January and 0.5CC products in February then, you are given another chance in March (considering the CC of February). Lets say that you couldn’t sell 2CC in February and March also, then FLP gives you your time to sell 2CC products to reach YOUR HIGHER LEVEL, considering two consecutive months only. You might even sell 2CC products in 1month itself and get promoted. \nThere is no hard and fast rule that you sell 2CC in a stipulated time. You might take your own time to get to a HIGHER LEVEL. \n</string>
+
+    <string name="rank_bannner">ca-app-pub-7796514960574688/7269515852</string>
+    <string name="rank_banner2">ca-app-pub-7796514960574688/9672317916</string>
+    <string name="approval_bnr1">ca-app-pub-7796514960574688/4605971293</string>
+    <string name="approval_bnr2">ca-app-pub-7796514960574688/2831577397</string>
+    <string name="benefit_bnr1">ca-app-pub-7796514960574688/4615432358</string>
+    <string name="benefit_bnr2">ca-app-pub-7796514960574688/6579250713</string>
+    <string name="history_bnr1">ca-app-pub-7796514960574688/3302350685</string>
+    <string name="home_bnr1">ca-app-pub-7796514960574688/9666726281</string>
+    <string name="markating_bnr1">ca-app-pub-7796514960574688/9676187349</string>
+    <string name="markating_bnr2">ca-app-pub-7796514960574688/1788236261</string>
+    <string name="starting_bnr1">ca-app-pub-7796514960574688/7818689504</string>
+    <string name="starting_bnr2">ca-app-pub-7796514960574688/7628361088</string>
 </resources>
